@@ -22,3 +22,11 @@ Three python scripts that detect faces in videos and photos, can save those face
 ![](https://github.com/James-Charles-Robinson/Face-Detection-And-Processing/blob/master/example/output/faces/face-7372.png?raw=true)
 
 To See more imputs and outputs head to the examples folder
+
+# What I Learnt
+1. How to use cv2 cascades to detect objects (faces) in an image
+2. How to save images using cv2
+3. How roi's work in cv2
+4. How to quickly get average colours in an image using cv2
+5. How blur an roi using cv2's GaussianBlur function
+6. How to paste that roi onto another image to get a final result
