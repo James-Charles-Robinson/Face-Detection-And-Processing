@@ -23,6 +23,12 @@ Three python scripts that detect faces in videos and photos, can save those face
 
 To See more imputs and outputs head to the examples folder
 
+# Limitations
+1. Depending on the input photos, about 10% of outputed faces and blurred regions are false positives.
+2. Sometimes the blurred region is doubled up, this is because of multidetection. I have eliminated most but not all of this.
+3. Faces are not detected if they are slightly rotated in any axis, only front facing portraits can be used reliably.
+4. Blurring in the videos is quite jagged/stuttery, i would like it to be smoother.
+
 # What I Learnt
 1. How to use cv2 cascades to detect objects (faces) in an image
 2. How to save images using cv2
