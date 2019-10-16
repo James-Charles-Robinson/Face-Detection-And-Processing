@@ -36,3 +36,4 @@ To See more imputs and outputs head to the examples folder
 4. How to quickly get average colours in an image using cv2
 5. How blur an roi using cv2's GaussianBlur function
 6. How to paste that roi onto another image to get a final result
+7. How to follow the PEP 8 guidelines
